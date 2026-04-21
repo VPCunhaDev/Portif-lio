@@ -1,4 +1,5 @@
 using ApiCatalogo.Context;
+using ApiCatalogo.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
@@ -12,7 +13,16 @@ builder.Services.AddControllers().AddJsonOptions(options => options.JsonSerializ
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-/*Abaixo, realizaremos as ocnfigurações para acesso ao BD*/
+//Abaixo, configurando o sistema de injeção de dependência DI do projeto
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+//builder.Services.AddScoped<IProdutoRepository, ProdutoRepository > ();
+/*Acima, utilizamos o AddScoped pois a cada tipo de requisição ele irá criar uma única instância, ou seja, dentro da mesma
+ requisição todo mundo irá utilizar a mesma instância. Em outra requisição, ele irá criar uma nova (GET,POST, PUT e DELETE.)*/
+
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+//Acima, funciona da mesma forma que a configuração do serviço anterior.
+
+/*Abaixo, realizaremos as configurações para acesso ao BD*/
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext> (options =>
 options.UseMySql(mySqlConnection,ServerVersion.AutoDetect(mySqlConnection)));

@@ -1,5 +1,6 @@
 ﻿using ApiCatalogo.Context;
 using ApiCatalogo.Models;
+using ApiCatalogo.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,23 +11,19 @@ namespace ApiCatalogo.Controllers
     [ApiController]
     public class ProdutosController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IProdutoRepository _repository;
 
-        //Abaixo, gerando o construtor que irá inserir a classe de contexto 
-        public ProdutosController(AppDbContext context)
+        //Abaixo, gerando o construtor que irá acessar a interface com os métodos
+        public ProdutosController(IProdutoRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<Produto>> Get()
         {
-            var produtos = _context.Produto.ToList();
-            if (produtos is null)
-            {
-                return NotFound("Produto não encontrado !");
-            }
-            return produtos;
+            var produtos = _repository.GetProdutos();
+            return Ok(produtos);
         }
         /*Acima, utilizamos o ActionResult, que pode nos trazer dois tipos de retorno diferentes, no caso cima, sendo eles produtos como uma
          lista e também o tipo NotFound, caso contrário não poderíamos ter esses dois retornos de TIPOS diferentes*/
@@ -34,12 +31,12 @@ namespace ApiCatalogo.Controllers
         [HttpGet("{id:int}", Name="ObterProduto")]
         public ActionResult<Produto> Get(int id)
         {
-            var produto = _context.Produto.FirstOrDefault(p => p.ProdutoId == id);
+            var produto = _repository.GetProduto(id);
             if (produto is null)
             {
                 return NotFound("Produto com ID informado não encontrado");
             }
-            return produto;
+            return Ok(produto);
         }
 
         [HttpPost] //Criando um novo produto
@@ -48,10 +45,9 @@ namespace ApiCatalogo.Controllers
             if (produto is null) {
                 return NotFound("Valor não encontrado !");
             }
-            _context.Produto.Add(produto); //Método ADD vai incluir o produto no contexto do EF Core (na memória por enquanto)
-            _context.SaveChanges();//Salvando as alterações que foram realizadas (novo produto sendo inserido, persiste os dados na tabela)
+            var ProdutoCriado = _repository.Create(produto);
 
-            return new CreatedAtRouteResult("ObterProduto", new { id = produto.ProdutoId }, produto);
+            return new CreatedAtRouteResult("ObterProduto", new { id = ProdutoCriado.ProdutoId }, ProdutoCriado);
             /*O objeto acima 'CreatedAtRouteResult é derivado do tipo ActionResult (tipo do método action),ele retorna o 201 no header,
              * indicando que o produto foi inserido com sucesso na tabela. Na sua definição, colocamos o nome da rota para obter esse produto
              seguido do ID que iremos incluir e informamos o objeto produto.
@@ -68,16 +64,9 @@ namespace ApiCatalogo.Controllers
         {
             if (id != produto.ProdutoId)
             {
-                return BadRequest();
+                return BadRequest("Produto inválido !");
             }
-
-            /*Como estamos trabalhadno em um estado offline, o contexto precisa ser informado de que a entidade produto está em um estado
-             modificado, utilizando o método entry definido abaixo*/
-
-            _context.Entry(produto).State = EntityState.Modified;
-            _context.SaveChanges();
-            //Para que essa entidade acima seja persistida (as alterações sejam salvas), utilizamos o método SaveChanges() aplicado no contexto acima
-
+            _repository.Update(produto);
             return Ok(produto);//retorna o status 200
         }
 
@@ -85,16 +74,13 @@ namespace ApiCatalogo.Controllers
         [HttpDelete("{id:int}")]
         public ActionResult Delete(int id) 
         {
-            var produto = _context.Produto.FirstOrDefault(p => p.ProdutoId == id);
+            var produto = _repository.GetProduto(id);
 
             if (produto is null)
             {
                 return NotFound("Produto não encontrado !");
             }
-
-            _context.Produto.Remove(produto);
-            _context.SaveChanges();
-
+            var ExcluirCategoria = _repository.Delete(id);
             return Ok(produto);
         }
     }

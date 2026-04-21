@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;//Para inicializar a coleção de produtos
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ApiCatalogo.Models;
 
@@ -26,7 +27,7 @@ public class Categoria
     public required string ImagemUrl { get; set; }
 
 
-
+    [JsonIgnore]
     public ICollection<Produto> Produtos { get; set; }
     /*Definindo que uma categoria terá uma coleção de produtos
      
