@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\",
+  "WorkspaceRootPath": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\vini_\\onedrive\\\u00E1rea de trabalho\\testes webapi\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|c:\\projetos_git\\webapi\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6B8DB1B7-59FD-4C35-AB46-6E3CDF520A4F}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "ApiCatalogo\\Controllers\\CategoriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ApiCatalogo\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Properties\\launchSettings.json",
               "RelativeToolTip": "ApiCatalogo\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "ApiCatalogo\\Controllers\\ProdutosController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAiwDMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,11 +84,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
               "RelativeToolTip": "ApiCatalogo\\Models\\Produto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T02:53:57.372Z",
               "EditorCaption": ""
@@ -97,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Models\\Categoria.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Models\\Categoria.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Models\\Categoria.cs",
               "RelativeToolTip": "ApiCatalogo\\Models\\Categoria.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Context\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Context\\AppDbContext.cs",
               "RelativeToolTip": "ApiCatalogo\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
               "RelativeDocumentMoniker": "ApiCatalogo\\appsettings.json",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
               "RelativeToolTip": "ApiCatalogo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -133,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "DocumentMoniker": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Program.cs",
               "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
-              "ToolTip": "C:\\Users\\vini_\\OneDrive\\\u00C1rea de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "ToolTip": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\Program.cs",
               "RelativeToolTip": "ApiCatalogo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

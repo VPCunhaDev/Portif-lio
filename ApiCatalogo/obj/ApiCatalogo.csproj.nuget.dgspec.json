@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vini_\\OneDrive\\Área de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj": {}
+    "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vini_\\OneDrive\\Área de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj": {
+    "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vini_\\OneDrive\\Área de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
+        "projectUniqueName": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
         "projectName": "ApiCatalogo",
-        "projectPath": "C:\\Users\\vini_\\OneDrive\\Área de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
+        "projectPath": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
         "packagesPath": "C:\\Users\\vini_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vini_\\OneDrive\\Área de Trabalho\\testes webapi\\ApiCatalogo\\ApiCatalogo\\obj\\",
+        "outputPath": "C:\\projetos_git\\WEBAPI\\ApiCatalogo\\ApiCatalogo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
